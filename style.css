@@ -44,5 +44,51 @@ header {
 }
 
 
+.titolo::before {
+    content: "\25BC"; 
+    margin-right: 3px;
+    font-size: small;
+}
+
+.titolo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.task {
+    margin-bottom: 25px;
+}
+
+.task p {
+    margin: 5px;
+}
+
+.today {
+    margin-bottom: 25px;
+}
+
+.today p {
+    margin: 5px;
+}
+
+.upcoming p {
+    margin: 5px;
+}
+
+.check::before {
+    content: "\2713";
+    color: greenyellow;
+    border-radius: 50%;
+    border: solid greenyellow;
+    border-width: thin;
+    
+}
+
+.x::before {
+    content: "\2715";
+    color: rgb(255, 3, 3);
+    border-radius: 50%;
+    border: solid rgb(250, 19, 19);
+    border-width: thin;
+}
 
 
