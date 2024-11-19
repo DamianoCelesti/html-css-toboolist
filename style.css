@@ -51,12 +51,13 @@ header {
 }
 .sec {
     height: 30px;
-    width: 85px;
+    width: 105px;
     border-radius: 11px;
     color: white;
     background-color: rgb(3, 173, 252);
     border-width: 0;
     font-size: small;
+    font-weight: bold;
 }
 
 .tas {
@@ -67,6 +68,7 @@ header {
     border-width: 1px;
     border-color: grey;
     font-size: small;
+    font-weight: bold;
 }
 
 /* testo */ 
@@ -90,7 +92,7 @@ header {
 }
 
 .task p, .today p, .upcoming p {
-    margin: 10px;
+    margin: 15px;
 }
 
 
@@ -100,9 +102,9 @@ header {
 
 .check::before {
     content: "\2713";
-    color: greenyellow;
+    color: rgb(144, 221, 29);
     border-radius: 50%;
-    border: solid greenyellow;
+    border: solid rgb(144, 221, 29);
     border-width: thin;
     width: 15px;
     height: 15px;
