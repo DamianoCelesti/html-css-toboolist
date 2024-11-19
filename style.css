@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: green;
+    background-color: rgb(222, 228, 222);
 }
 
 
@@ -14,12 +14,15 @@ body {
 header {
     height: 100px;
     background-color: white;
+    display: flex;
+    align-items: center;
 }
 
 #head img {
+    padding-left: 140px;
     line-height: 100%;
     vertical-align: middle;
-    
+
 }
 
 
@@ -27,6 +30,8 @@ header {
     font-size: 40px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 100%;
+    vertical-align: middle;
 }
 
 /* main */
@@ -35,11 +40,11 @@ header {
     width: 70%;
     height: 90%;
     background-color: white;
-    margin: 20px auto;
+    margin: 4% auto;
     border-radius: 5px;
-    padding-left: 3%;
-    padding-top: 15px;
-    padding-bottom: 1%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 /* bottoni */
