@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(222, 228, 222);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -29,7 +30,6 @@ header {
 #head span {
     font-size: 40px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 100%;
     vertical-align: middle;
 }
@@ -37,21 +37,37 @@ header {
 /* main */
 
 .container {
-    width: 70%;
-    height: 90%;
+    width: 60%;
+    height: 95%;
     background-color: white;
     margin: 4% auto;
     border-radius: 5px;
-    padding-left: 4%;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    padding: 2% 4% 3% 4%;
 }
 
 /* bottoni */
 .btn {
     margin-bottom: 30px;
 }
+.sec {
+    height: 30px;
+    width: 85px;
+    border-radius: 11px;
+    color: white;
+    background-color: rgb(3, 173, 252);
+    border-width: 0;
+    font-size: small;
+}
 
+.tas {
+    height: 30px;
+    width: 85px;
+    border-radius: 11px;
+    background-color: white;
+    border-width: 1px;
+    border-color: grey;
+    font-size: small;
+}
 
 /* testo */ 
 
@@ -69,21 +85,15 @@ header {
     margin-bottom: 25px;
 }
 
-.task p {
-    margin: 5px;
-}
-
 .today {
     margin-bottom: 25px;
 }
 
-.today p {
-    margin: 5px;
+.task p, .today p, .upcoming p {
+    margin: 10px;
 }
 
-.upcoming p {
-    margin: 5px;
-}
+
 
 
 /* checkbox */
