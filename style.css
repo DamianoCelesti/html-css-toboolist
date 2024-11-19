@@ -8,6 +8,9 @@ body {
     background-color: green;
 }
 
+
+/* header */
+
 header {
     height: 100px;
     background-color: white;
@@ -26,6 +29,7 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* main */
 
 .container {
     width: 70%;
@@ -38,11 +42,13 @@ header {
     padding-bottom: 1%;
 }
 
-
+/* bottoni */
 .btn {
     margin-bottom: 30px;
 }
 
+
+/* testo */ 
 
 .titolo::before {
     content: "\25BC"; 
@@ -74,13 +80,21 @@ header {
     margin: 5px;
 }
 
+
+/* checkbox */
+
 .check::before {
     content: "\2713";
     color: greenyellow;
     border-radius: 50%;
     border: solid greenyellow;
     border-width: thin;
-    
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    display: inline-flex;
 }
 
 .x::before {
@@ -89,6 +103,87 @@ header {
     border-radius: 50%;
     border: solid rgb(250, 19, 19);
     border-width: thin;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    display: inline-flex;
 }
 
 
+/*mattoni colorati */
+
+.edi {
+    display: inline-flex;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(4, 221, 250);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.q1 {
+    display: inline-flex;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(88, 88, 187);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.recru {
+    display: inline-flex;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(38, 196, 17);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobi {
+    display: inline-flex;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(240, 158, 7);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.web {
+    display: inline-flex;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(206, 43, 179);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sale {
+    display: inline-flex;
+    width: 70px;
+    height: 20px;
+    background-color: rgb(68, 136, 59);
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
