@@ -19,7 +19,7 @@ header {
     align-items: center;
 }
 
-#head img {
+header img {
     padding-left: 140px;
     line-height: 100%;
     vertical-align: middle;
@@ -27,7 +27,7 @@ header {
 }
 
 
-#head span {
+header span {
     font-size: 40px;
     font-weight: bold;
     line-height: 100%;
