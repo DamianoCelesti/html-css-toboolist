@@ -71,7 +71,7 @@ header {
     font-weight: bold;
 }
 
-/* testo */ 
+/* lista */ 
 
 .titolo::before {
     content: "\25BC"; 
@@ -92,7 +92,7 @@ header {
 }
 
 .task p, .today p, .upcoming p {
-    margin: 15px;
+    margin: 15px 0;
 }
 
 
