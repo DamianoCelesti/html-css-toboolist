@@ -49,6 +49,7 @@ header {
 .btn {
     margin-bottom: 30px;
 }
+
 .sec {
     height: 30px;
     width: 105px;
@@ -71,10 +72,10 @@ header {
     font-weight: bold;
 }
 
-/* lista */ 
+/* lista */
 
 .titolo::before {
-    content: "\25BC"; 
+    content: "\25BC";
     margin-right: 3px;
     font-size: small;
 }
@@ -83,6 +84,7 @@ header {
     font-size: 20px;
     font-weight: bold;
 }
+
 .task {
     margin-bottom: 25px;
 }
@@ -91,7 +93,9 @@ header {
     margin-bottom: 25px;
 }
 
-.task p, .today p, .upcoming p {
+.task p,
+.today p,
+.upcoming p {
     margin: 15px 0;
 }
 
@@ -131,76 +135,39 @@ header {
 
 /*mattoni colorati */
 
-.edi {
+span.mattone {
     display: inline-flex;
     width: 70px;
     height: 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+span.blu {
     background-color: rgb(4, 221, 250);
-    border-radius: 10px;
-    color: white;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
 }
 
-.q1 {
-    display: inline-flex;
-    width: 70px;
-    height: 20px;
+
+span.viola {
     background-color: rgb(88, 88, 187);
-    border-radius: 10px;
-    color: white;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
 }
 
-
-.recru {
-    display: inline-flex;
-    width: 70px;
-    height: 20px;
+span.verde {
     background-color: rgb(38, 196, 17);
-    border-radius: 10px;
-    color: white;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
 }
 
-.mobi {
-    display: inline-flex;
-    width: 70px;
-    height: 20px;
+span.arancione {
     background-color: rgb(240, 158, 7);
-    border-radius: 10px;
-    color: white;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
 }
 
-
-.web {
-    display: inline-flex;
-    width: 70px;
-    height: 20px;
+span.rosa {
     background-color: rgb(206, 43, 179);
-    border-radius: 10px;
-    color: white;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
 }
 
-.sale {
-    display: inline-flex;
-    width: 70px;
-    height: 20px;
+span.verdescuro {
     background-color: rgb(68, 136, 59);
-    border-radius: 10px;
-    color: white;
-    font-size: 12px;
-    justify-content: center;
-    align-items: center;
+
 }
